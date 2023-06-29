@@ -33,7 +33,7 @@ async def get_tabla():
     """
     conn = psycopg2.connect(
         dbname="cundycroshdb",
-        user="api@servidor-cundycrosh",
+        user="AdminCundy@servidor-cundycrosh",
         password="123 ",
         host="servidor-cundycrosh.postgres.database.azure.com",
         port="5432"
@@ -64,7 +64,7 @@ async def post_tabla(partida: Partida):
     """
     conn = psycopg2.connect(
         dbname="cundycroshdb",
-        user="api@cundycroshsogadb",
+        user="AdminCundy@servidor-cundycrosh",
         password="123",
         host="servidor-cundycrosh.postgres.database.azure.com",
         port="5432"
